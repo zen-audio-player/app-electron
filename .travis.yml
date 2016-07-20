@@ -8,5 +8,5 @@ install:
   - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 script:
   - npm install -g eslint 
-  - eslint ./*.js
+  - eslint ./*.js --ignore-path::node_modules
   - npm test
