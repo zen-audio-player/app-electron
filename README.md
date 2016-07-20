@@ -2,7 +2,7 @@
 Desktop application for Zen Audio Player
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zen-audio-player/zen-audio-player.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Build Status](https://github.com/artforlife/app-electron.svg?branch=master)](https://travis-ci.org/zen-audio-player/zen-audio-player.github.io)
+[![Build Status](https://github.com/artforlife/app-electron.svg?branch=master)](https://github.com/artforlife/app-electron)
 
 
 Listen to YouTube videos, without the distracting visuals.
