@@ -6,7 +6,7 @@
     "electron-prebuilt": "^1.2.7"
     },
    "scripts": {
-    "pretest": "eslint *.js"
+    "lint": "eslint *.js"
   }
 }
 
