@@ -8,7 +8,7 @@
    "scripts": {
     "lint" : "eslint *.js", 
     "lintinstall" : "npm install eslint",
-    "pretest" : "npm run lininstall && npm run lint"
+    "pretest" : "npm run lintinstall && npm run lint"
   }
 }
 
