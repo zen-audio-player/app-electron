@@ -4,12 +4,19 @@
   "main": "main.js",
   "dependencies": {
     "electron-prebuilt": "^1.2.7"
+    }
+   "scripts": {
+    "lint:js": "eslint js/*.js",
+    "lint:tests": "eslint test/*.js",
+    "lint:html": "htmlhint index.html",
+    "lint:css": "csslint --format=compact --warnings=box-model,ids css/*.css",
+    "stylelint:css": "stylelint css/*.css",
+    "lint": "npm run lint:js && npm run lint:html && npm run lint:css && npm run lint:tests",
+    "pretest": "npm run stylelint:css && npm run lint",
+    "test": "mocha",
+    "exp-fix:js": "eslint js/everything.js --fix",
+    "start": "http-server --cors -o -a localhost"
   },
-  "devDependencies": {
-    "eslint": "^3.1.1",
-    "eslint-config-google": "^0.6.0",
-    "eslint-config-standard": "^5.3.5",
-    "eslint-plugin-promise": "^2.0.0",
-    "eslint-plugin-standard": "^2.0.0"
-  }
+
 }
+
