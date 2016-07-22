@@ -7,7 +7,7 @@
     },
    "scripts": {
     "lint": "eslint *.js",
-    "pretest": "npm run lint"
+    "pretest": "npm run lint",
     "start": "electron ."
   }
 }
