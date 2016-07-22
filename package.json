@@ -6,9 +6,9 @@
     "electron-prebuilt": "^1.2.7"
     },
    "scripts": {
-    "pre-lint": "eslint install",
+    "pre-lint": "install eslint",
     "lint": "eslint *.js",
-    "pretest": "npm pre-lint && npm run lint",
+    "pretest": "npm run pre-lint && npm run lint",
     "start": "electron ."
   }
 }
