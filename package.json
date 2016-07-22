@@ -7,8 +7,8 @@
     },
    "scripts": {
     "lint": "eslint *.js",
-    "lint": "npm run lint",
     "pretest": "npm run lint"
+    "start" : "./node_modules/.bin/electron ."
   }
 }
 
