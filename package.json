@@ -3,13 +3,12 @@
   "version": "0.1.0",
   "main": "main.js",
   "dependencies": {
-    "electron-prebuilt": "^1.2.7"
-    },
-   "scripts": {
-    "pre-lint": "npm install eslint",
+    "electron-prebuilt": "^1.2.7",
+    "eslint": "^3.1.1"
+  },
+  "scripts": {
     "lint": "eslint *.js",
-    "pretest": "npm run pre-lint && npm run lint",
+    "pretest": "npm run lint",
     "start": "electron ."
   }
 }
-
