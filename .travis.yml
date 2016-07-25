@@ -13,3 +13,6 @@ install:
 script:
   - npm install 
   - npm test
+
+notifications:
+  email: false
