@@ -13,3 +13,5 @@ Listen to YouTube videos, without the distracting visuals.
 Clone this repository. Run `npm install` from within the cloned directory. Amongst other npm modules, this will install `electron-prebuilt` module. To launch the app, use `./node_modules/.bin/electron .` from within the directory. 
 If your Electron is installed globally, you can also use `electron .`
 
+Alternatively, one can start the app with `npm start` after running `npm install`.
+
