@@ -10,5 +10,7 @@ Listen to YouTube videos, without the distracting visuals.
 
 
 ## To Run the Desktop Version
-Clone this repository. Run `npm install` from within the cloned directory. Amongst other npm modules, this will install `electron-prebuilt` module. To start the app execute `npm start` after running `npm install`.
+1) Clone this repository.
+2) Run `npm install` from within the cloned directory. Amongst other npm modules, this will install `electron-prebuilt` module. 
+3) To start the app execute `npm start`.
 
