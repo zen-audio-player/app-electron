@@ -2,17 +2,8 @@
     "root": true,
     "env": {
         "browser": true,
-        "mocha": true,
-        "jquery": true,
         "es6": true,
         "node": true
-    },
-    "globals": {
-        "YT": true,
-        "ga": true,
-        "twttr": true,
-        "time": true,
-        "plyr": true
     },
     "rules": {
         "indent": [
